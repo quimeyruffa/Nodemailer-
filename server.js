@@ -54,4 +54,5 @@ transporter.sendMail(mailOptions, function(err, data){
 });
 app.listen(port, () => {
     console.log('Running on ' + port);
+
 });
